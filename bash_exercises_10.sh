@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 df -h | while read -r filesystem size used avail perc mountpoint; do
     if [[ "$filesystem" == "drivers" ]]; then
         echo "Percentage used: $perc"
