@@ -4,8 +4,8 @@ This scripts is a Pygame implementation of the Chaos Game to draw a Sierpinski T
 ### Rules
 
 * Start with a big triangle
-* Find the middle of each side of the big triangle
-* Make a new small triangle and connect these three middle points to form a smaller triangle inside the big triangle. Then, pretend to erase the small triangle in the center.
+* Find the middle of each side of the big triangle, then pretend to erase the big triangle.
+* Make a new small triangle by connecting these three middle points to form a smaller triangle inside the big triangle. Then, pretend to erase the small triangle in the center.
 * Repeat the magic, you now have three triangles left. Do the same thing with each one—find the middle of their sides, draw a small triangle, and erase it.
 
 - **Python 3.6+**  
