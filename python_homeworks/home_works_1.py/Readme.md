@@ -1,7 +1,12 @@
 # Sierpinski Triangle
-This project demonstrates a Pygame implementation of the Chaos Game to draw a Sierpinski Triangle. The program starts drawing at 1 FPS and accelerates up to 3000 FPS over 10 seconds, while displaying the current point count in the top-left corner.
+This scripts is a Pygame implementation of the Chaos Game to draw a Sierpinski Triangle.
 
-## Prerequisites
+### Rules
+
+* Start with a big triangle
+* Find the middle of each side of the big triangle
+* Make a new small triangle and connect these three middle points to form a smaller triangle inside the big triangle. Then, pretend to erase the small triangle in the center.
+* Repeat the magic, you now have three triangles left. Do the same thing with each one—find the middle of their sides, draw a small triangle, and erase it.
 
 - **Python 3.6+**  
 - **Pygame** (installed via `requirements.txt`)
