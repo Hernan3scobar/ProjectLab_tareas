@@ -1,5 +1,4 @@
-# Sierpinski Triangle with Accelerating FPS
-
+# Sierpinski Triangle
 This project demonstrates a Pygame implementation of the Chaos Game to draw a Sierpinski Triangle. The program starts drawing at 1 FPS and accelerates up to 3000 FPS over 10 seconds, while displaying the current point count in the top-left corner.
 
 ## Prerequisites
