@@ -21,36 +21,38 @@ A Flask web application that generates and streams the Sierpiński Triangle patt
 ## Environment Setup
 
 ### 1. Clone Repository
+
 ```bash
 git clone https://github.com/yourusername/sierpinski-web.git
 cd sierpinski-web
+```
 
 ### 2. Create a Virtual Environment
 
 Creating a virtual environment is recommended to manage dependencies.
 
 - **On macOS/Linux:**
+
 ```bash
 python3 -m venv venv
 source venv/bin/activate 
 ```
-
   
 - **On Windows:**
-````bash 
+
+```bash 
 Python -m venv venv
 venv\Scripts\activate
-````
+```
+
 ### 3. Install Dependencies 
 
-````bash
+```bash
 pip install -r requirements.txt
-````
+```
 
 ### Runing the Application 
 
-````bash
-
+```bash
 python main.py
-
-````
+```
