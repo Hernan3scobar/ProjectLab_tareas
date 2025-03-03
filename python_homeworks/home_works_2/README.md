@@ -2,7 +2,6 @@
 
 A Flask web application that generates and streams the Sierpiński Triangle pattern using Pygame's headless mode. Implements the Chaos Game algorithm with real-time rendering to a web interface.
 
-![Sierpinski Triangle Demo](https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle#/media/File:Sierpinski_triangle.svg)
 
 ## Features
 
@@ -25,3 +24,33 @@ A Flask web application that generates and streams the Sierpiński Triangle patt
 ```bash
 git clone https://github.com/yourusername/sierpinski-web.git
 cd sierpinski-web
+
+### 2. Create a Virtual Environment
+
+Creating a virtual environment is recommended to manage dependencies.
+
+- **On macOS/Linux:**
+```bash
+python3 -m venv venv
+source venv/bin/activate 
+```
+
+  
+- **On Windows:**
+````bash 
+Python -m venv venv
+venv\Scripts\activate
+````
+### 3. Install Dependencies 
+
+````bash
+pip install -r requirements.txt
+````
+
+### Runing the Application 
+
+````bash
+
+python main.py
+
+````
