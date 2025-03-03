@@ -20,12 +20,9 @@ A Flask web application that generates and streams the Sierpiński Triangle patt
 
 ## Environment Setup
 
-### 1. Clone Repository
+### 1. Clone or Download the Repository
 
-```bash
-git clone https://github.com/yourusername/sierpinski-web.git
-cd sierpinski-web
-```
+Clone this repository or download the source code to your local machine.
 
 ### 2. Create a Virtual Environment
 
